@@ -8,9 +8,9 @@ variable "location" {
   type        = string
 }
 
-variable "names" {
-  description = "Names to be applied to resources"
-  type        = map(string)
+variable "product_name" {
+  description = "Product name to be applied to resources"
+  type        = string
 }
 
 variable "tags" {
